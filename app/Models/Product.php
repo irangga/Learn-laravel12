@@ -21,7 +21,7 @@ class Product extends Model
     ];
 
     // inisialisasi kolom yang tidak dapat diisi secara massal
-    protected $guarded = [
-        'id_product'
-    ];
+    // protected $guarded = [
+    //     'id_product'
+    // ];
 }
